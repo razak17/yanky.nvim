@@ -16,7 +16,7 @@ function sqlite.setup()
     return false
   end
 
-  local dbpath = vim.fn.stdpath("data") .. "/databases/yanky.db"
+  local dbpath = require("yanky.config").options.dbpath
   vim.fn.mkdir(string.match(dbpath, "(.*[/\\])"), "p")
 
   sqlite.db = connection:open(dbpath)

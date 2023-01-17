@@ -28,6 +28,7 @@ local default_values = {
       mappings = nil,
     },
   },
+  dbpath = vim.fn.stdpath("data") .. "/databases/yanky.db",
 }
 
 function config.setup(options)
