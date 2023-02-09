@@ -426,9 +426,9 @@ Define if highlight put text feature is enabled.
 
 Define if highlight yanked text feature is enabled.
 
-                                                        *yanky-`ring.timeout`*
+                                                     *yanky-`highlight.timer`*
 
-`ring.timeout`                         Default : `500`
+`highlight.timer`                      Default : `500`
 
 
 Define the duration of highlight.
